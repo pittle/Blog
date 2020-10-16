@@ -1,0 +1,25 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "description": "- 标题\r - 内容\r - 创建时间\r - 浏览次数\r - 标签列表",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pittle/Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pittle/Blog/issues"
+  },
+  "homepage": "https://github.com/pittle/Blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "svg-captcha": "^1.4.0"
+  }
+}
