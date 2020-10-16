@@ -6,6 +6,7 @@ var controllerSet = [];
 
 var pathMap = new Map();
 
+console.log(__dirname);
 var files = fs.readdirSync(__dirname + globalConfig['web_path']);
 //[ 'BlogController.js', 'EveryDayController.js' ]
 
